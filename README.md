@@ -4,7 +4,7 @@
 
 ## Installation
 
-- Download the project directory `translyric-game-main.zip`.
+- Download the project directory `translyric-game-main.zip` [here](https://github.com/mhollingshead/translyric-game/archive/refs/heads/main.zip).
 - Unzip and `cd` into `translyric-game-main`.
 - Run `npm install` to install the necessary dependencies.
 - Run `npm start` and you should be good to go.
