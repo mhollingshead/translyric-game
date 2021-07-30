@@ -1,8 +1,17 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 .App {
   text-align: center;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
 }
 .App > * {
   width: 40%;
