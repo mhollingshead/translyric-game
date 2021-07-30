@@ -1,6 +1,6 @@
 # Translyric
 
-*Guess the song based on the translated lyrcs*
+*Guess the song based on the translated lyrcs-- a 24-hour pair programming project for BrainFlix*
 
 ## Installation
 
