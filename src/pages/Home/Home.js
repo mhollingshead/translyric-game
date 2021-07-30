@@ -18,8 +18,22 @@ export default function Home() {
                 </div>
                 <div className="category">
                     <Link to="/game/hits-of-2010" className="game-path">
-                        <h1 className="music-type">🎸</h1>
+                        <h1 className="music-type">🎤</h1>
                         <h3 className="music-type-text">2010 Hits</h3>
+                        <button className="game-path__button">Play Now</button>
+                    </Link>
+                </div>
+                <div className="category">
+                    <Link to="/game/rap" className="game-path">
+                        <h1 className="music-type">🎵</h1>
+                        <h3 className="music-type-text">Rap</h3>
+                        <button className="game-path__button">Play Now</button>
+                    </Link>
+                </div>
+                <div className="category">
+                    <Link to="/game/classic-rock" className="game-path">
+                        <h1 className="music-type">🎸</h1>
+                        <h3 className="music-type-text">Classic Rock</h3>
                         <button className="game-path__button">Play Now</button>
                     </Link>
                 </div>

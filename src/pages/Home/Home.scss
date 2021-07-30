@@ -4,22 +4,34 @@ h1{
     font-weight: 700;
 }
 
+#h2--bolded{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
 .home-page{
-    background-color: orange;
+    background-color: white;
+    background-image: url('https://songtrivia2.io/images/rsz_1backround.png');
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
+    .app-name{
+        margin: 2rem 1rem;
+    }
     .categories{
         display: flex;
         .category{
             display: flex;
             flex-direction: column;
+            justify-content: center;
             align-items: center;
             background-color: white;
             width: 10rem;
             margin: 2rem 2rem;
             border-radius: 1rem;
+            height: 30vh;
             .game-path{
                 text-decoration: none;
                 .music-type{
@@ -29,14 +41,20 @@ h1{
                 .music-type-text{
                     color: black;
                     text-align: center;
+                    padding: 1rem 0;
                 }
                 .game-path__button{
                     border: none;
-                    background-color: turquoise;
+                    background-color: #00b0eb;;
                     color: white;
                     border-radius: 0.25rem;
                     padding: 1rem 2rem;
                     margin-bottom: 1rem;
+                    font-size: 20px;
+                }
+                .game-path__button:hover{
+                    cursor: pointer;
+                    filter: brightness(1.2);
                 }
             }
         }
