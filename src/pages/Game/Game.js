@@ -86,14 +86,20 @@ export default class Game extends Component {
             if (this.state.lives === 0) {
                 // score is multiplied by a random number and later divided by it in gameover page
                 const encoder = Math.floor(Math.random() * 12 + 1);
-                window.location = `/gameover/${this.props.match.params.category}/${this.state.points * encoder}a${encoder}`
+                window.location = `/gameover/${this.props.match.params.category}/${this.state.points * encoder}a${encoder}`;
+                return;
             }
         }
     }
     // from results page, continue to next round
     nextRound = () => {
         // if no more songs left refill the array
-        if (this.state.songs.length === 1) this.setState({ songs: shuffle(...[categories.find(c => c.category === this.props.match.params.category).songs]) })
+        if (this.state.songs.length === 0) {
+            // score is multiplied by a random number and later divided by it in gameover page
+            const encoder = Math.floor(Math.random() * 12 + 1);
+            window.location = `/gameover/${this.props.match.params.category}/${this.state.points * encoder}a${encoder}`;
+            return;
+        }
         // pick the new song from the array randomly
         const newSong = this.state.songs[Math.floor(Math.random() * this.state.songs.length)];
         // update the state with the filtered song array, reset round values

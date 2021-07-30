@@ -36,11 +36,12 @@ export default class GameOver extends Component {
                             this.state.highscores.sort((a, b) => b.score - a.score).map((score, ind) => {
                                 // show top 3 scores
                                 if (ind < 3) return (
-                                    <div className="leaderboard__row" key={Math.random()}>
+                                    <div className="leaderboard__row" key={Math.random()+ind}>
                                         <div className="leaderboard__score">{score.score}</div>
                                         <div className="leaderboard__category">{score.category.replaceAll("-", " ")}</div>
                                     </div>
                                 )
+                                else return null
                             })
                         }
                     </div>}

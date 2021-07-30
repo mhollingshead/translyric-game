@@ -3,10 +3,30 @@ h1{
     line-height: 72px;
     font-weight: 700;
 }
-
+sup {
+    opacity: 0.75;
+}
 #h2--bolded{
-    font-weight: bolder;
+    font-weight: 600;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+.instructions {
+    max-width: 768px;
+    margin-top: 1rem;
+    height: 50px;
+    transition: 0.3s;
+
+    &__sample {
+        font-weight: 600;
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+}
+.invisible {
+    height: 0.5px;
+    overflow: hidden;
 }
 
 .home-page{
@@ -15,10 +35,14 @@ h1{
     color: white;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     height: 100vh;
     .app-name{
-        margin: 2rem 1rem;
+        margin: 1rem;
+    }
+    .app-slogan {
+        font-weight: 300;
     }
     .categories{
         display: flex;
@@ -29,11 +53,12 @@ h1{
             align-items: center;
             background-color: white;
             width: 10rem;
-            margin: 2rem 2rem;
+            margin: 2rem 1rem;
             border-radius: 1rem;
-            height: 30vh;
+            padding: 1rem;
             .game-path{
                 text-decoration: none;
+                width: 100%;
                 .music-type{
                     font-size: 2rem;
                     text-align: center;
@@ -44,13 +69,15 @@ h1{
                     padding: 1rem 0;
                 }
                 .game-path__button{
-                    border: none;
-                    background-color: #00b0eb;;
-                    color: white;
-                    border-radius: 0.25rem;
-                    padding: 1rem 2rem;
-                    margin-bottom: 1rem;
-                    font-size: 20px;
+                    // border: none;
+                    // background-color: #00b0eb;;
+                    // color: white;
+                    // border-radius: 0.25rem;
+                    // padding: 1rem 2rem;
+                    // margin-bottom: 1rem;
+                    // font-size: 20px;
+                    width: 100%;
+                    text-transform: uppercase;
                 }
                 .game-path__button:hover{
                     cursor: pointer;
