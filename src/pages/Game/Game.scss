@@ -23,9 +23,13 @@
             width: 25%;
         }
     }
+    &__label {
+        font-size: 1.17rem;
+    }
     &__game-score{
         display: flex;
         align-items: baseline;
+        font-size: 1.17rem;
     }
     &__lives {
         text-align: right;

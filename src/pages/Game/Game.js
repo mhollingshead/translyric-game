@@ -34,8 +34,6 @@ export default class Game extends Component {
         const languageOrder = shuffle([...langs]).splice(0, 2);
         // Update state with language, song information
         this.setState({ languages: languageOrder, song: song });
-        // For debugging / test purposes
-        console.log(song);
         // First API call get's the song lyrics
         getLyrics(song.artist.replaceAll(" ", "%20"), song.title.replaceAll(" ", "%20"))
             .then(res => {
