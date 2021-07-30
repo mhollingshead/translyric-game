@@ -1,0 +1,148 @@
+[
+    {
+        "category": "hits-of-2010s",
+        "songs": [
+            {
+                "artist": "Train",
+                "title": "Hey Soul Sister"
+            },
+            {
+                "artist": "Usher",
+                "title": "OMG"
+            },
+            {
+                "artist": "B.o.B ft Hayley Williams",
+                "title": "Airplanes"
+            },
+            {
+                "artist": "Eminem ft Rihanna",
+                "title": "Love the way you lie"
+            },
+            {
+                "artist": "Taio Cruz",
+                "title": "Dynamite"
+            },
+            {
+                "artist": "Rihanna",
+                "title": "Rudeboy"
+            },
+            {
+                "artist": "Lady Gaga",
+                "title": "Telephone"
+            },
+            {
+                "artist": "Teenage Dream",
+                "title": "Katy Perry"
+            },
+            {
+                "artist": "The Script",
+                "title": "Breakeven"
+            },
+            {
+                "artist": "Black Eyed Peas",
+                "title": "I Gotta Feeling"
+            },
+            {
+                "artist": "Drake",
+                "title": "Find Your Love"
+            },
+            {
+                "artist": "Owl City",
+                "title": "Fireflies"
+            },
+            {
+                "artist": "Jay Sean",
+                "title": "Down"
+            },
+            {
+                "artist": "Justin Bieber",
+                "title": "Baby"
+            },
+            {
+                "artist": "One Republic",
+                "title": "Apologize"
+            },
+            {
+                "artist": "Taylor Swift",
+                "title": "You Belong With Me"
+            },
+            {
+                "artist": "Maroon 5",
+                "title": "Payphone"
+            }
+        ]
+    },
+    {
+        "category": "pop",
+        "songs": [
+            {
+                "artist": "Bruno Mars ft Mark Ronson",
+                "title": "Uptown Funk!"
+            },
+            {
+                "artist": "LMFAO",
+                "title": "Party Rock Anthem"
+            },
+            {
+                "artist": "Mariah Carey",
+                "title": "We Belong Together"
+            },
+            {
+                "artist": "The Beatles",
+                "title": "Hey Jude"
+            },
+            {
+                "artist": "Usher ft LilJon & Ludacris",
+                "title": "Yeah!"
+            },
+            {
+                "artist": "Rod Stewart",
+                "title": "Tonight's the Night(Gonna Be Alright)"
+            },
+            {
+                "artist": "Bee Gees",
+                "title": "How Deep Is Your Love"
+            },
+            {
+                "artist": "Survivor",
+                "title": "Eye of the Tiger"
+            },
+            {
+                "artist": "Rihanna ft Calvin Harris",
+                "title": "We Found Love"
+            },
+            {
+                "artist": "Aerosmith",
+                "title": "Dream On"
+            },
+            {
+                "artist": "Gotye Feat. Kimbra",
+                "title": "Somebody That I Used to Know "
+            },
+            {
+                "artist": "Adele",
+                "title": "Rolling in The Deep"
+            },
+            {
+                "artist": "Adele",
+                "title": "Someone Like You"
+            },
+            {
+                "artist": "Marvin Gaye",
+                "title": "Let's Get It On"
+            },
+            {
+                "artist": "Queen",
+                "title": "Another One Bites the Dust"
+            },
+            {
+                "artist": "Carly Rae Jepson",
+                "title": "Call Me Maybe"
+            },
+            {
+                "artist": "BackStreet Boys",
+                "title": "I Want it That Way"
+            }
+        ]
+    }
+]
