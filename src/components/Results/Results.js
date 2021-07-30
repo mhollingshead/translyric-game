@@ -1,11 +1,18 @@
 import './Results.scss';
 
-export default function Result({ originalLyrics, translatedLyrics, languages, nextRound }) {
+export default function Result({ originalLyrics, translatedLyrics, languages, nextRound, song }) {
     const handleOnClick = () => {
+        // proceed to new round
         nextRound();
     }
     return (
         <div className="result">
+            <div className="result__head">
+                <div>
+                    <h2 className="result__title">{song.title}</h2>
+                    <p className="result__artist">{song.artist}</p>
+                </div>
+            </div>
             <div className="original">
                 {
                     originalLyrics && originalLyrics.map((line) => (
@@ -13,6 +20,7 @@ export default function Result({ originalLyrics, translatedLyrics, languages, ne
                     ))
                 }
             </div>
+            <div className="arrow">→</div>
             <div className="translated">
                 {
                     translatedLyrics && translatedLyrics.map((line) => (
@@ -21,15 +29,16 @@ export default function Result({ originalLyrics, translatedLyrics, languages, ne
                 }
             </div>
             <div className="languages">
-                <span>🇺🇸→</span>
+                <span className="language"><span className="flag">🇺🇸</span>→</span>
                 {
                     languages && languages.map((country) => (
-                        <span key={Math.random()}>{country.flag}→</span>
+                        // show the translation history
+                        <span key={Math.random()} className="language"><span className="flag">{country.flag}</span>→</span>
                     ))
                 }
-                🇺🇸
+                <span className="flag">🇺🇸</span>
             </div>
-            <button onClick={handleOnClick} className="button">Next Round</button>
+            <button onClick={handleOnClick} className="button">NEXT ROUND</button>
         </div>
     );
 }

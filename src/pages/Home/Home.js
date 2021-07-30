@@ -1,7 +1,5 @@
-import reactDom from 'react-dom';
 import './Home.scss'
 import { Link } from 'react-router-dom';
-import Timer from '../../helpers/Timer.';
 
 export default function Home() {
     return (
@@ -26,7 +24,6 @@ export default function Home() {
                     </Link>
                 </div>
             </div>
-            <div>{Timer}</div>
         </main>
     );
 }

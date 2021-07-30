@@ -1,6 +1,6 @@
 [
     {
-        "category": "hits-of-2010s",
+        "category": "hits-of-2010",
         "songs": [
             {
                 "artist": "Train",
@@ -11,28 +11,16 @@
                 "title": "OMG"
             },
             {
-                "artist": "B.o.B ft Hayley Williams",
-                "title": "Airplanes"
-            },
-            {
-                "artist": "Eminem ft Rihanna",
+                "artist": "Eminem",
                 "title": "Love the way you lie"
-            },
-            {
-                "artist": "Taio Cruz",
-                "title": "Dynamite"
-            },
-            {
-                "artist": "Rihanna",
-                "title": "Rudeboy"
             },
             {
                 "artist": "Lady Gaga",
                 "title": "Telephone"
             },
             {
-                "artist": "Teenage Dream",
-                "title": "Katy Perry"
+                "artist": "Katy Perry",
+                "title": "Teenage Dream"
             },
             {
                 "artist": "The Script",
@@ -43,20 +31,20 @@
                 "title": "I Gotta Feeling"
             },
             {
-                "artist": "Drake",
-                "title": "Find Your Love"
+                "artist": "Owl City",
+                "title": "Fireflies"
+            },
+            {
+                "artist": "Justin Bieber",
+                "title": "Baby"
             },
             {
                 "artist": "Owl City",
                 "title": "Fireflies"
             },
             {
-                "artist": "Jay Sean",
-                "title": "Down"
-            },
-            {
-                "artist": "Justin Bieber",
-                "title": "Baby"
+                "artist": "Nickelback",
+                "title": "Rockstar"
             },
             {
                 "artist": "One Republic",
@@ -76,72 +64,182 @@
         "category": "pop",
         "songs": [
             {
-                "artist": "Bruno Mars ft Mark Ronson",
-                "title": "Uptown Funk!"
+                "artist": "Shaggy",
+                "title": "It Wasn't Me"
             },
             {
-                "artist": "LMFAO",
-                "title": "Party Rock Anthem"
+                "artist": "Backstreet Boys",
+                "title": "I Want It That Way"
             },
             {
-                "artist": "Mariah Carey",
-                "title": "We Belong Together"
+                "artist": "TLC",
+                "title": "No Scrubs"
+            },
+            {
+                "artist": "Spice Girls",
+                "title": "Wannabe"
+            },
+            {
+                "artist": "Sean Kingston",
+                "title": "Beautiful Girls"
+            },
+            {
+                "artist": "TOTO",
+                "title": "Africa"
+            },
+            {
+                "artist": "Estelle",
+                "title": "American Boy"
+            },
+            {
+                "artist": "The Killers",
+                "title": "Mr. Brightside"
+            },
+            {
+                "artist": "Gloria Gaynor",
+                "title": "I Will Survive"
+            },
+            {
+                "artist": "Van Morrison",
+                "title": "Brown Eyed Girl"
+            },
+            {
+                "artist": "ABBA",
+                "title": "Dancing Queen"
             },
             {
                 "artist": "The Beatles",
                 "title": "Hey Jude"
             },
             {
-                "artist": "Usher ft LilJon & Ludacris",
-                "title": "Yeah!"
-            },
-            {
-                "artist": "Rod Stewart",
-                "title": "Tonight's the Night(Gonna Be Alright)"
-            },
-            {
-                "artist": "Bee Gees",
-                "title": "How Deep Is Your Love"
-            },
-            {
                 "artist": "Survivor",
                 "title": "Eye of the Tiger"
-            },
-            {
-                "artist": "Rihanna ft Calvin Harris",
-                "title": "We Found Love"
             },
             {
                 "artist": "Aerosmith",
                 "title": "Dream On"
             },
             {
-                "artist": "Gotye Feat. Kimbra",
-                "title": "Somebody That I Used to Know "
+                "artist": "Blink 182",
+                "title": "All The Small Things"
             },
             {
-                "artist": "Adele",
-                "title": "Rolling in The Deep"
+                "artist": "The Foundations",
+                "title": "Build Me Up Buttercup"
             },
             {
-                "artist": "Adele",
-                "title": "Someone Like You"
+                "artist": "Journey",
+                "title": "Don't Stop Believin'"
+            }
+        ]
+    },
+    {
+        "category": "rap",
+        "songs": [
+            {
+                "artist": "Drake",
+                "title": "Over"
             },
             {
-                "artist": "Marvin Gaye",
-                "title": "Let's Get It On"
+                "artist": "Chamillionaire",
+                "title": "Ridin"
             },
             {
-                "artist": "Queen",
-                "title": "Another One Bites the Dust"
+                "artist": "Travis Scott",
+                "title": "goosebumps"
             },
             {
-                "artist": "Carly Rae Jepson",
-                "title": "Call Me Maybe"
+                "artist": "Kanye West",
+                "title": "POWER"
             },
             {
-                "artist": "BackStreet Boys",
-                "title": "I Want it That Way"
+                "artist": "Kendrick Lamar",
+                "title": "m.A.A.d city"
+            },
+            {
+                "artist": "Drake",
+                "title": "Hotline Bling"
+            },
+            {
+                "artist": "Biz Markie",
+                "title": "Just a Friend"
+            },
+            {
+                "artist": "Big Shaq",
+                "title": "Man's Not Hot"
+            },
+            {
+                "artist": "Fetty Wap",
+                "title": "Trap Queen"
+            },
+            {
+                "artist": "Juice WRLD",
+                "title": "Lucid Dreams"
+            },
+            {
+                "artist": "Soulja Boy",
+                "title": "Pretty Boy Swag"
+            },
+            {
+                "artist": "Lil Baby",
+                "title": "Yes Indeed"
+            }
+        ]
+    },
+    {
+        "category": "classic-rock",
+        "songs": [
+            {
+                "artist": "Billy Joel",
+                "title": "Piano Man"
+            },
+            {
+                "artist": "The Animals",
+                "title": "House of the Rising Sun"
+            },
+            {
+                "artist": "Talking Heads",
+                "title": "Burning Down the House"
+            },
+            {
+                "artist": "Phil Collins",
+                "title": "In the Air Tonight"
+            },
+            {
+                "artist": "Stevie Nicks",
+                "title": "Edge of Seventeen"
+            },
+            {
+                "artist": "Steve Miller Band",
+                "title": "The Joker"
+            },
+            {
+                "artist": "John Lennon",
+                "title": "Imagine"
+            },
+            {
+                "artist": "The Eagles",
+                "title": "Hotel California"
+            },
+            {
+                "artist": "Lynyrd Skynyrd",
+                "title": "Sweet Home Alabama"
+            },
+            {
+                "artist": "The Who",
+                "title": "Baba O'Riley"
+            },
+            {
+                "artist": "ACDC",
+                "title": "Back in Black"
+            },
+            {
+                "artist": "The Beatles",
+                "title": "I Want to Hold Your Hand"
+            },
+            {
+                "artist": "The Beatles",
+                "title": "I am the Walrus"
             }
         ]
     }

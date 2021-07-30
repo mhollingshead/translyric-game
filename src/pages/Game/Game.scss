@@ -1,0 +1,102 @@
+.game {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://songtrivia2.io/images/rsz_1backround.png');
+
+    &__content {
+        width: 80%;
+        color: white;
+        border-radius: 0.5rem;
+        max-width: 800px;
+    }
+    &__head {
+        width: 100%;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+
+        & > * {
+            width: 25%;
+        }
+    }
+    &__game-score{
+        display: flex;
+        align-items: baseline;
+    }
+    &__lives {
+        text-align: right;
+    }
+    &__result {
+        width: auto;
+        background-color: white;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+    }
+}
+.button {
+    background-color: #00b0eb;
+    border: 4px solid white;
+    border-radius: 0.5rem;
+    outline: none;
+    padding: 0.5rem;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    text-align: center;
+
+    &:hover {
+        filter: brightness(1.2);
+    }
+    &--link {
+        width: 80%;
+        max-width: 800px;
+    }
+}
+
+.loading {
+    min-height: 513.6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__icon {
+        animation: rotate 1s infinite;
+        padding: 2rem;
+        font-size: 3rem;
+    }
+}
+.result {
+    &__points {
+        margin: 0 0.5rem;
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: rgb(40, 40, 40);
+    }
+    &__bonus {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #00b0eb;
+    }
+    &__message {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: rgb(40, 40, 40);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}

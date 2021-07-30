@@ -1,0 +1,12 @@
+.lives {
+    &__heart {
+        margin-left: 0.5rem;
+        -webkit-font-smoothing: antialiased;
+        filter: hue-rotate(180deg) brightness(1.2);
+        font-size: 1.2rem;
+
+        &--gone {
+            filter: brightness(0) invert(1);
+        }
+    }
+}

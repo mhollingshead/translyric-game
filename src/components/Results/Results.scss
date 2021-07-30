@@ -2,16 +2,76 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 80%;
+    width: 100%;
+
+    &__head {
+        width: 100%;
+        margin: 1rem 0;
+        padding: 1rem 0;
+    }
+
+    &__title {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    &__artist {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
 
     .original {
-        width: 50%;
+        width: 45%;
+        min-height: 220px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: rgb(40, 40, 40);
+        border-radius: 0.5rem;
+        padding: 1rem;
+        font-weight: 600;
     }
     .translated {
-        width: 50%;
+        width: 45%;
+        min-height: 220px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: rgb(40, 40, 40);
+        border-radius: 0.5rem;
+        padding: 1rem;
+        font-weight: 600;
+    }
+    .arrow {
+        width: 10%;
+        min-height: 220px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 3rem;
+        font-weight: 900;
     }
     .languages {
         width: 100%;
         margin: 2rem 0;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    .flag {
+        font-size: 2.5rem;
+        margin: 0 0.5rem;
+        filter: saturate(1.5);
+    }
+    .language {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 900;
     }
 }

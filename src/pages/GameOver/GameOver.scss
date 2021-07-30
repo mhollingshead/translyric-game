@@ -1,0 +1,57 @@
+.game-over {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    background-image: url('https://songtrivia2.io/images/rsz_1backround.png');
+
+    &__body {
+        width: 80%;
+        background-color: white;
+        border-radius: 0.5rem;
+        max-width: 800px;
+        color: rgb(40, 40, 40);
+        padding: 1rem;
+        margin: 2rem 0;
+    }
+    &__header {
+        font-size: 2rem;
+    }
+    &__title {
+        font-size: 1.25rem;
+        margin: 0.5rem 0;
+        text-align: center;
+    }
+    &__score {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+}
+
+.highscore {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.leaderboard {
+    max-width: 200px;
+    margin: 0 auto;
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0.5rem 0;
+        border-top:1px solid rgb(0, 0, 0, 0.1);
+    }
+    &__category {
+        text-transform: capitalize;
+    }
+}

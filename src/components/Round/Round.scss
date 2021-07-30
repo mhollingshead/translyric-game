@@ -1,5 +1,15 @@
 .translated {
     width: 100%;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: rgb(40, 40, 40);
+    font-weight: 600;
+    border-radius: 0.5rem;
+    padding: 1rem;
 }
 .form {
     width: 100%;
@@ -7,8 +17,46 @@
 
     &__input {
         width: 100%;
+        outline: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 2px solid rgb(255, 255, 255, 0.4);
+        padding: 0.5rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: white;
+        background: none;
+        margin-bottom: 1rem;
+
+        &:focus {
+            border-bottom: 2px solid white;
+        }
+        &::placeholder {
+            font-weight: 300;
+            color: rgb(255, 255, 255, 0.4);
+        }
     }
 }
 .button {
     width: 100%;
+}
+.round {
+    &__timer {
+        width: 100%;
+        margin: 1rem 0;
+        padding: 1rem 0;
+    }
+    &__bar {
+        height: 4px;
+        margin: 0 auto;
+        transition: width 1s linear;
+        background: #00b0eb;
+    }
+    &__bar-wrapper {
+        width: 100%;
+        background: white;
+        padding: 0.25rem;
+        border-radius: 0.5rem;
+    }
 }
